@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(/*@START_MENU_TOKEN@*/.orange/*@END_MENU_TOKEN@*/)
             Text(x)
             Button {
                 print("button clicked!")
@@ -22,9 +22,17 @@ struct ContentView: View {
             } label: {
                 Text("Clicked \(counter) times!")
             }
+            Text("Another text")
+            Button("Test button") {
+                print("test")
+            }
 
         }
         .padding()
+    }
+    
+    func test() {
+        print("test function")
     }
 }
 

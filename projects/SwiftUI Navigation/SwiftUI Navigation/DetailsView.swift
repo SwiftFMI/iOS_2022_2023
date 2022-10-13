@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct DetailsView: View {
+    @Environment(\.presentationMode) var mode
+    @State var counter: Int
+    init() {
+        print("Init details view")
+//        self.mode = mode
+        self._counter = State(initialValue: 0)
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("State counter = \(counter)")
+            Button("+1") {
+                counter += 1
+            }
+            Button("Back") {
+                print("pop view")
+                mode.wrappedValue.dismiss()
+
+            }
+        }
+        .navigationTitle("Details view")
     }
 }
 

@@ -11,7 +11,38 @@
 		9E84F47228EF318B0082A1DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F47128EF318B0082A1DC /* ContentView.swift */; };
 		9E84F47428EF318C0082A1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F47328EF318C0082A1DC /* Assets.xcassets */; };
 		9E84F47728EF318C0082A1DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F47628EF318C0082A1DC /* Preview Assets.xcassets */; };
+		9E84F4A028F479770082A1DC /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F49F28F479770082A1DC /* ShareViewController.swift */; };
+		9E84F4A328F479770082A1DC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F4A128F479770082A1DC /* MainInterface.storyboard */; };
+		9E84F4A728F479770082A1DC /* ShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9E84F49D28F479770082A1DC /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E84F4B328F47AA50082A1DC /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F4B228F47AA50082A1DC /* icon.icns */; };
+		9E84F4B528F47AA50082A1DC /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F4B428F47AA50082A1DC /* ShareViewController.swift */; };
+		9E84F4B828F47AA50082A1DC /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F4B628F47AA50082A1DC /* ShareViewController.xib */; };
+		9E84F4C328F485F50082A1DC /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E84F4C228F485F40082A1DC /* WeatherKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E84F4A528F479770082A1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E84F46428EF318B0082A1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E84F49C28F479770082A1DC;
+			remoteInfo = ShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E84F4A828F479770082A1DC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E84F4A728F479770082A1DC /* ShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9E84F46C28EF318B0082A1DC /* SwiftUI Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +50,38 @@
 		9E84F47128EF318B0082A1DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E84F47328EF318C0082A1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E84F47628EF318C0082A1DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E84F49D28F479770082A1DC /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E84F49F28F479770082A1DC /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		9E84F4A228F479770082A1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9E84F4A428F479770082A1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E84F4B028F47AA50082A1DC /* MacShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MacShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E84F4B228F47AA50082A1DC /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		9E84F4B428F47AA50082A1DC /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		9E84F4B728F47AA50082A1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
+		9E84F4B928F47AA50082A1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E84F4BA28F47AA50082A1DC /* MacShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacShareExtension.entitlements; sourceTree = "<group>"; };
+		9E84F4BE28F47D850082A1DC /* SwiftUI Demo App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Demo App.entitlements"; sourceTree = "<group>"; };
+		9E84F4BF28F4851C0082A1DC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9E84F4C228F485F40082A1DC /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = System/Library/Frameworks/WeatherKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9E84F46928EF318B0082A1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E84F4C328F485F50082A1DC /* WeatherKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E84F49A28F479770082A1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E84F4AD28F47AA50082A1DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				9E84F46E28EF318B0082A1DC /* SwiftUI Demo App */,
+				9E84F49E28F479770082A1DC /* ShareExtension */,
+				9E84F4B128F47AA50082A1DC /* MacShareExtension */,
 				9E84F46D28EF318B0082A1DC /* Products */,
+				9E84F4C128F485F40082A1DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				9E84F46C28EF318B0082A1DC /* SwiftUI Demo App.app */,
+				9E84F49D28F479770082A1DC /* ShareExtension.appex */,
+				9E84F4B028F47AA50082A1DC /* MacShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +115,10 @@
 		9E84F46E28EF318B0082A1DC /* SwiftUI Demo App */ = {
 			isa = PBXGroup;
 			children = (
+				9E84F4BE28F47D850082A1DC /* SwiftUI Demo App.entitlements */,
 				9E84F46F28EF318B0082A1DC /* SwiftUI_Demo_AppApp.swift */,
 				9E84F47128EF318B0082A1DC /* ContentView.swift */,
+				9E84F4BF28F4851C0082A1DC /* CardView.swift */,
 				9E84F47328EF318C0082A1DC /* Assets.xcassets */,
 				9E84F47528EF318C0082A1DC /* Preview Content */,
 			);
@@ -67,6 +133,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9E84F49E28F479770082A1DC /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9E84F49F28F479770082A1DC /* ShareViewController.swift */,
+				9E84F4A128F479770082A1DC /* MainInterface.storyboard */,
+				9E84F4A428F479770082A1DC /* Info.plist */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		9E84F4B128F47AA50082A1DC /* MacShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9E84F4B228F47AA50082A1DC /* icon.icns */,
+				9E84F4B428F47AA50082A1DC /* ShareViewController.swift */,
+				9E84F4B628F47AA50082A1DC /* ShareViewController.xib */,
+				9E84F4B928F47AA50082A1DC /* Info.plist */,
+				9E84F4BA28F47AA50082A1DC /* MacShareExtension.entitlements */,
+			);
+			path = MacShareExtension;
+			sourceTree = "<group>";
+		};
+		9E84F4C128F485F40082A1DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E84F4C228F485F40082A1DC /* WeatherKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +173,51 @@
 				9E84F46828EF318B0082A1DC /* Sources */,
 				9E84F46928EF318B0082A1DC /* Frameworks */,
 				9E84F46A28EF318B0082A1DC /* Resources */,
+				9E84F4A828F479770082A1DC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E84F4A628F479770082A1DC /* PBXTargetDependency */,
 			);
 			name = "SwiftUI Demo App";
 			productName = "SwiftUI Demo App";
 			productReference = 9E84F46C28EF318B0082A1DC /* SwiftUI Demo App.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9E84F49C28F479770082A1DC /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E84F4AB28F479770082A1DC /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				9E84F49928F479770082A1DC /* Sources */,
+				9E84F49A28F479770082A1DC /* Frameworks */,
+				9E84F49B28F479770082A1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareExtension;
+			productName = ShareExtension;
+			productReference = 9E84F49D28F479770082A1DC /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9E84F4AF28F47AA50082A1DC /* MacShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E84F4BB28F47AA50082A1DC /* Build configuration list for PBXNativeTarget "MacShareExtension" */;
+			buildPhases = (
+				9E84F4AC28F47AA50082A1DC /* Sources */,
+				9E84F4AD28F47AA50082A1DC /* Frameworks */,
+				9E84F4AE28F47AA50082A1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacShareExtension;
+			productName = MacShareExtension;
+			productReference = 9E84F4B028F47AA50082A1DC /* MacShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +230,12 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					9E84F46B28EF318B0082A1DC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					9E84F49C28F479770082A1DC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					9E84F4AF28F47AA50082A1DC = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -116,6 +254,8 @@
 			projectRoot = "";
 			targets = (
 				9E84F46B28EF318B0082A1DC /* SwiftUI Demo App */,
+				9E84F49C28F479770082A1DC /* ShareExtension */,
+				9E84F4AF28F47AA50082A1DC /* MacShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +267,23 @@
 			files = (
 				9E84F47728EF318C0082A1DC /* Preview Assets.xcassets in Resources */,
 				9E84F47428EF318C0082A1DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E84F49B28F479770082A1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E84F4A328F479770082A1DC /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E84F4AE28F47AA50082A1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E84F4B828F47AA50082A1DC /* ShareViewController.xib in Resources */,
+				9E84F4B328F47AA50082A1DC /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +299,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E84F49928F479770082A1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E84F4A028F479770082A1DC /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E84F4AC28F47AA50082A1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E84F4B528F47AA50082A1DC /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E84F4A628F479770082A1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E84F49C28F479770082A1DC /* ShareExtension */;
+			targetProxy = 9E84F4A528F479770082A1DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E84F4A128F479770082A1DC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E84F4A228F479770082A1DC /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		9E84F4B628F47AA50082A1DC /* ShareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E84F4B728F47AA50082A1DC /* Base */,
+			);
+			name = ShareViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9E84F47828EF318C0082A1DC /* Debug */ = {
@@ -262,8 +462,10 @@
 		9E84F47B28EF318C0082A1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Demo App/SwiftUI Demo App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Demo App/Preview Content\"";
@@ -273,13 +475,13 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -291,8 +493,10 @@
 		9E84F47C28EF318C0082A1DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Demo App/SwiftUI Demo App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Demo App/Preview Content\"";
@@ -302,18 +506,126 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E84F4A928F479770082A1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L24TQ8W95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-App.ShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E84F4AA28F479770082A1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L24TQ8W95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-App.ShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E84F4BC28F47AA50082A1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MacShareExtension/MacShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L24TQ8W95;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MacShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.MacShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9E84F4BD28F47AA50082A1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MacShareExtension/MacShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L24TQ8W95;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MacShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.MacShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -334,6 +646,24 @@
 			buildConfigurations = (
 				9E84F47B28EF318C0082A1DC /* Debug */,
 				9E84F47C28EF318C0082A1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E84F4AB28F479770082A1DC /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E84F4A928F479770082A1DC /* Debug */,
+				9E84F4AA28F479770082A1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E84F4BB28F47AA50082A1DC /* Build configuration list for PBXNativeTarget "MacShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E84F4BC28F47AA50082A1DC /* Debug */,
+				9E84F4BD28F47AA50082A1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
