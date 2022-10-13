@@ -1,4 +1,5 @@
-# swiftuilectures
+# Курс по програмиране за iOS със Swift и SwiftUI
+
 SwiftUI Lectures
 
 Репозитори, в което се съхряняват лекциите за курса по iOS със SwiftUI.
