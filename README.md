@@ -1,6 +1,6 @@
 # Курс по програмиране за iOS със Swift и SwiftUI
 
-SwiftUI Lectures
+Курс, който използва SwiftUI
 
 Репозитори, в което се съхряняват лекциите за курса по iOS със SwiftUI.
 
