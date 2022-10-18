@@ -18,6 +18,8 @@
 		9E84F4B528F47AA50082A1DC /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F4B428F47AA50082A1DC /* ShareViewController.swift */; };
 		9E84F4B828F47AA50082A1DC /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F4B628F47AA50082A1DC /* ShareViewController.xib */; };
 		9E84F4C328F485F50082A1DC /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E84F4C228F485F40082A1DC /* WeatherKit.framework */; };
+		9E84F5DC28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F5DB28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITests.swift */; };
+		9E84F5DE28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F5DD28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9E84F49C28F479770082A1DC;
 			remoteInfo = ShareExtension;
+		};
+		9E84F5DF28FE9BDD0082A1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E84F46428EF318B0082A1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E84F46B28EF318B0082A1DC;
+			remoteInfo = "SwiftUI Demo App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,6 +72,9 @@
 		9E84F4BE28F47D850082A1DC /* SwiftUI Demo App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Demo App.entitlements"; sourceTree = "<group>"; };
 		9E84F4BF28F4851C0082A1DC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9E84F4C228F485F40082A1DC /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = System/Library/Frameworks/WeatherKit.framework; sourceTree = SDKROOT; };
+		9E84F5D928FE9BDD0082A1DC /* SwiftUI Demo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Demo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E84F5DB28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Demo_AppUITests.swift; sourceTree = "<group>"; };
+		9E84F5DD28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Demo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E84F5D628FE9BDD0082A1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +116,7 @@
 				9E84F46E28EF318B0082A1DC /* SwiftUI Demo App */,
 				9E84F49E28F479770082A1DC /* ShareExtension */,
 				9E84F4B128F47AA50082A1DC /* MacShareExtension */,
+				9E84F5DA28FE9BDD0082A1DC /* SwiftUI Demo AppUITests */,
 				9E84F46D28EF318B0082A1DC /* Products */,
 				9E84F4C128F485F40082A1DC /* Frameworks */,
 			);
@@ -108,6 +128,7 @@
 				9E84F46C28EF318B0082A1DC /* SwiftUI Demo App.app */,
 				9E84F49D28F479770082A1DC /* ShareExtension.appex */,
 				9E84F4B028F47AA50082A1DC /* MacShareExtension.appex */,
+				9E84F5D928FE9BDD0082A1DC /* SwiftUI Demo AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +182,15 @@
 				9E84F4C228F485F40082A1DC /* WeatherKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E84F5DA28FE9BDD0082A1DC /* SwiftUI Demo AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E84F5DB28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITests.swift */,
+				9E84F5DD28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITestsLaunchTests.swift */,
+			);
+			path = "SwiftUI Demo AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +249,24 @@
 			productReference = 9E84F4B028F47AA50082A1DC /* MacShareExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		9E84F5D828FE9BDD0082A1DC /* SwiftUI Demo AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E84F5E328FE9BDD0082A1DC /* Build configuration list for PBXNativeTarget "SwiftUI Demo AppUITests" */;
+			buildPhases = (
+				9E84F5D528FE9BDD0082A1DC /* Sources */,
+				9E84F5D628FE9BDD0082A1DC /* Frameworks */,
+				9E84F5D728FE9BDD0082A1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E84F5E028FE9BDD0082A1DC /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Demo AppUITests";
+			productName = "SwiftUI Demo AppUITests";
+			productReference = 9E84F5D928FE9BDD0082A1DC /* SwiftUI Demo AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,6 +286,10 @@
 					9E84F4AF28F47AA50082A1DC = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
+					9E84F5D828FE9BDD0082A1DC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 9E84F46B28EF318B0082A1DC;
+					};
 				};
 			};
 			buildConfigurationList = 9E84F46728EF318B0082A1DC /* Build configuration list for PBXProject "SwiftUI Demo App" */;
@@ -256,6 +308,7 @@
 				9E84F46B28EF318B0082A1DC /* SwiftUI Demo App */,
 				9E84F49C28F479770082A1DC /* ShareExtension */,
 				9E84F4AF28F47AA50082A1DC /* MacShareExtension */,
+				9E84F5D828FE9BDD0082A1DC /* SwiftUI Demo AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,6 +340,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E84F5D728FE9BDD0082A1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -315,6 +375,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E84F5D528FE9BDD0082A1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E84F5DC28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITests.swift in Sources */,
+				9E84F5DE28FE9BDD0082A1DC /* SwiftUI_Demo_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -322,6 +391,11 @@
 			isa = PBXTargetDependency;
 			target = 9E84F49C28F479770082A1DC /* ShareExtension */;
 			targetProxy = 9E84F4A528F479770082A1DC /* PBXContainerItemProxy */;
+		};
+		9E84F5E028FE9BDD0082A1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E84F46B28EF318B0082A1DC /* SwiftUI Demo App */;
+			targetProxy = 9E84F5DF28FE9BDD0082A1DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -482,7 +556,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -513,7 +587,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -629,6 +703,40 @@
 			};
 			name = Release;
 		};
+		9E84F5E128FE9BDD0082A1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L24TQ8W95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Demo App";
+			};
+			name = Debug;
+		};
+		9E84F5E228FE9BDD0082A1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L24TQ8W95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.demo.swiftui.SwiftUI-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Demo App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -664,6 +772,15 @@
 			buildConfigurations = (
 				9E84F4BC28F47AA50082A1DC /* Debug */,
 				9E84F4BD28F47AA50082A1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E84F5E328FE9BDD0082A1DC /* Build configuration list for PBXNativeTarget "SwiftUI Demo AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E84F5E128FE9BDD0082A1DC /* Debug */,
+				9E84F5E228FE9BDD0082A1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
