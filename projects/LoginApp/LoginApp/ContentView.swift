@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var username: String
+    @State var username: String = ""
     @State var password: String = ""
     var body: some View {
         VStack {
@@ -29,6 +29,12 @@ struct ContentView: View {
                 }
                 
             }
+            Button {
+               username = "Hello"
+            } label: {
+               Text("Print")
+            }
+
             
                 
         }
