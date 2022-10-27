@@ -12,6 +12,7 @@ struct ContentView: View {
     @State var password: String = ""
     var body: some View {
         VStack {
+            
             Text("Login")
                 .font(.largeTitle)
             Image(systemName: "globe")
@@ -23,20 +24,14 @@ struct ContentView: View {
             }
             HStack {
                 Text("Password:")
-                VStack {
-                    SecureField("", text: $password, prompt: Text("your passsword"))
-                        .autocorrectionDisabled(true)
-                }
-                
+                SecureField("", text: $password, prompt: Text("your passsword"))
+                    .autocorrectionDisabled(true)
             }
             Button {
                username = "Hello"
             } label: {
                Text("Print")
             }
-
-            
-                
         }
         .padding()
     }

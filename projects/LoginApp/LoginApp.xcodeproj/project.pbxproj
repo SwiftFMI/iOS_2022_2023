@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E0BDB0A290ADAC700BE6627 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9EBD411329019F9C006CCFDC /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBD411629019F9C006CCFDC /* LoginAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppApp.swift; sourceTree = "<group>"; };
 		9EBD411829019F9C006CCFDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 			children = (
 				9EBD411629019F9C006CCFDC /* LoginAppApp.swift */,
 				9EBD411829019F9C006CCFDC /* ContentView.swift */,
+				9E0BDB0A290ADAC700BE6627 /* README.md */,
 				9EBD411A29019F9E006CCFDC /* Assets.xcassets */,
 				9EBD411C29019F9E006CCFDC /* Preview Content */,
 			);
