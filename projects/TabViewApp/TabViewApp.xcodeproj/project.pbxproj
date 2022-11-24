@@ -7,28 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E001F92292FD93A00029EEA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E001F91292FD93A00029EEA /* ProfileView.swift */; };
-		9E001F94292FE4F900029EEA /* SystemPreferencesModel+TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E001F93292FE4F900029EEA /* SystemPreferencesModel+TestData.swift */; };
-		9EC0970C292693870019B94F /* SystemPreferencesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0970B292693870019B94F /* SystemPreferencesAppApp.swift */; };
-		9EC0970E292693870019B94F /* SystemPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0970D292693870019B94F /* SystemPreferencesView.swift */; };
-		9EC09710292693890019B94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC0970F292693890019B94F /* Assets.xcassets */; };
-		9EC09713292693890019B94F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC09712292693890019B94F /* Preview Assets.xcassets */; };
-		9EC0971A292697500019B94F /* SystemPreferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09719292697500019B94F /* SystemPreferenceModel.swift */; };
+		9EC09763292BDDF00019B94F /* TabViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09762292BDDF00019B94F /* TabViewAppApp.swift */; };
+		9EC09765292BDDF00019B94F /* TabViewRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09764292BDDF00019B94F /* TabViewRoot.swift */; };
+		9EC09767292BDDF20019B94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC09766292BDDF20019B94F /* Assets.xcassets */; };
+		9EC0976A292BDDF20019B94F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC09769292BDDF20019B94F /* Preview Assets.xcassets */; };
+		9EC09771292BDE750019B94F /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09770292BDE750019B94F /* MyProfileView.swift */; };
+		9EC09773292BDFD10019B94F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09772292BDFD10019B94F /* HomeView.swift */; };
+		9EC09775292BE0700019B94F /* ReceivedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09774292BE0700019B94F /* ReceivedView.swift */; };
+		9EC09778292BE3A20019B94F /* NavigationSplitViewRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09777292BE3A20019B94F /* NavigationSplitViewRoot.swift */; };
+		9EC0977A292BE42D0019B94F /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC09779292BE42D0019B94F /* ItemDetailsView.swift */; };
+		9EC0977C292BE96D0019B94F /* NavigationViewRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0977B292BE96D0019B94F /* NavigationViewRoot.swift */; };
+		9EC0977E292BEF1A0019B94F /* NavigationStackViewRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0977D292BEF1A0019B94F /* NavigationStackViewRoot.swift */; };
+		9EC09780292BEF4B0019B94F /* ColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0977F292BEF4B0019B94F /* ColorDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E001F91292FD93A00029EEA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		9E001F93292FE4F900029EEA /* SystemPreferencesModel+TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SystemPreferencesModel+TestData.swift"; sourceTree = "<group>"; };
-		9EC09708292693870019B94F /* SystemPreferencesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemPreferencesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EC0970B292693870019B94F /* SystemPreferencesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPreferencesAppApp.swift; sourceTree = "<group>"; };
-		9EC0970D292693870019B94F /* SystemPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPreferencesView.swift; sourceTree = "<group>"; };
-		9EC0970F292693890019B94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9EC09712292693890019B94F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9EC09719292697500019B94F /* SystemPreferenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPreferenceModel.swift; sourceTree = "<group>"; };
+		9EC0975F292BDDF00019B94F /* TabViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC09762292BDDF00019B94F /* TabViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAppApp.swift; sourceTree = "<group>"; };
+		9EC09764292BDDF00019B94F /* TabViewRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRoot.swift; sourceTree = "<group>"; };
+		9EC09766292BDDF20019B94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EC09769292BDDF20019B94F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EC09770292BDE750019B94F /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		9EC09772292BDFD10019B94F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9EC09774292BE0700019B94F /* ReceivedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedView.swift; sourceTree = "<group>"; };
+		9EC09777292BE3A20019B94F /* NavigationSplitViewRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewRoot.swift; sourceTree = "<group>"; };
+		9EC09779292BE42D0019B94F /* ItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
+		9EC0977B292BE96D0019B94F /* NavigationViewRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewRoot.swift; sourceTree = "<group>"; };
+		9EC0977D292BEF1A0019B94F /* NavigationStackViewRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackViewRoot.swift; sourceTree = "<group>"; };
+		9EC0977F292BEF4B0019B94F /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EC09705292693870019B94F /* Frameworks */ = {
+		9EC0975C292BDDF00019B94F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,96 +48,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E001F95292FE51000029EEA /* ViewModel */ = {
+		9EC09756292BDDF00019B94F = {
 			isa = PBXGroup;
 			children = (
-				9EC09719292697500019B94F /* SystemPreferenceModel.swift */,
-				9E001F93292FE4F900029EEA /* SystemPreferencesModel+TestData.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		9E001F96292FE52F00029EEA /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9EC0970D292693870019B94F /* SystemPreferencesView.swift */,
-				9E001F91292FD93A00029EEA /* ProfileView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9EC096FF292693870019B94F = {
-			isa = PBXGroup;
-			children = (
-				9EC0970A292693870019B94F /* SystemPreferencesApp */,
-				9EC09709292693870019B94F /* Products */,
+				9EC09761292BDDF00019B94F /* TabViewApp */,
+				9EC09760292BDDF00019B94F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EC09709292693870019B94F /* Products */ = {
+		9EC09760292BDDF00019B94F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EC09708292693870019B94F /* SystemPreferencesApp.app */,
+				9EC0975F292BDDF00019B94F /* TabViewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EC0970A292693870019B94F /* SystemPreferencesApp */ = {
+		9EC09761292BDDF00019B94F /* TabViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				9E001F96292FE52F00029EEA /* View */,
-				9E001F95292FE51000029EEA /* ViewModel */,
-				9EC0970B292693870019B94F /* SystemPreferencesAppApp.swift */,
-				9EC0970F292693890019B94F /* Assets.xcassets */,
-				9EC09711292693890019B94F /* Preview Content */,
+				9EC09776292BE1880019B94F /* Tabs */,
+				9EC09762292BDDF00019B94F /* TabViewAppApp.swift */,
+				9EC09764292BDDF00019B94F /* TabViewRoot.swift */,
+				9EC09766292BDDF20019B94F /* Assets.xcassets */,
+				9EC09768292BDDF20019B94F /* Preview Content */,
+				9EC09777292BE3A20019B94F /* NavigationSplitViewRoot.swift */,
+				9EC09779292BE42D0019B94F /* ItemDetailsView.swift */,
+				9EC0977B292BE96D0019B94F /* NavigationViewRoot.swift */,
+				9EC0977D292BEF1A0019B94F /* NavigationStackViewRoot.swift */,
+				9EC0977F292BEF4B0019B94F /* ColorDetailView.swift */,
 			);
-			path = SystemPreferencesApp;
+			path = TabViewApp;
 			sourceTree = "<group>";
 		};
-		9EC09711292693890019B94F /* Preview Content */ = {
+		9EC09768292BDDF20019B94F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9EC09712292693890019B94F /* Preview Assets.xcassets */,
+				9EC09769292BDDF20019B94F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EC09776292BE1880019B94F /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				9EC09770292BDE750019B94F /* MyProfileView.swift */,
+				9EC09772292BDFD10019B94F /* HomeView.swift */,
+				9EC09774292BE0700019B94F /* ReceivedView.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EC09707292693870019B94F /* SystemPreferencesApp */ = {
+		9EC0975E292BDDF00019B94F /* TabViewApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EC09716292693890019B94F /* Build configuration list for PBXNativeTarget "SystemPreferencesApp" */;
+			buildConfigurationList = 9EC0976D292BDDF20019B94F /* Build configuration list for PBXNativeTarget "TabViewApp" */;
 			buildPhases = (
-				9EC09704292693870019B94F /* Sources */,
-				9EC09705292693870019B94F /* Frameworks */,
-				9EC09706292693870019B94F /* Resources */,
+				9EC0975B292BDDF00019B94F /* Sources */,
+				9EC0975C292BDDF00019B94F /* Frameworks */,
+				9EC0975D292BDDF00019B94F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SystemPreferencesApp;
-			productName = SystemPreferencesApp;
-			productReference = 9EC09708292693870019B94F /* SystemPreferencesApp.app */;
+			name = TabViewApp;
+			productName = TabViewApp;
+			productReference = 9EC0975F292BDDF00019B94F /* TabViewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EC09700292693870019B94F /* Project object */ = {
+		9EC09757292BDDF00019B94F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					9EC09707292693870019B94F = {
+					9EC0975E292BDDF00019B94F = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 9EC09703292693870019B94F /* Build configuration list for PBXProject "SystemPreferencesApp" */;
+			buildConfigurationList = 9EC0975A292BDDF00019B94F /* Build configuration list for PBXProject "TabViewApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,45 +142,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 9EC096FF292693870019B94F;
-			productRefGroup = 9EC09709292693870019B94F /* Products */;
+			mainGroup = 9EC09756292BDDF00019B94F;
+			productRefGroup = 9EC09760292BDDF00019B94F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EC09707292693870019B94F /* SystemPreferencesApp */,
+				9EC0975E292BDDF00019B94F /* TabViewApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9EC09706292693870019B94F /* Resources */ = {
+		9EC0975D292BDDF00019B94F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC09713292693890019B94F /* Preview Assets.xcassets in Resources */,
-				9EC09710292693890019B94F /* Assets.xcassets in Resources */,
+				9EC0976A292BDDF20019B94F /* Preview Assets.xcassets in Resources */,
+				9EC09767292BDDF20019B94F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EC09704292693870019B94F /* Sources */ = {
+		9EC0975B292BDDF00019B94F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E001F92292FD93A00029EEA /* ProfileView.swift in Sources */,
-				9E001F94292FE4F900029EEA /* SystemPreferencesModel+TestData.swift in Sources */,
-				9EC0970E292693870019B94F /* SystemPreferencesView.swift in Sources */,
-				9EC0970C292693870019B94F /* SystemPreferencesAppApp.swift in Sources */,
-				9EC0971A292697500019B94F /* SystemPreferenceModel.swift in Sources */,
+				9EC0977A292BE42D0019B94F /* ItemDetailsView.swift in Sources */,
+				9EC0977E292BEF1A0019B94F /* NavigationStackViewRoot.swift in Sources */,
+				9EC09775292BE0700019B94F /* ReceivedView.swift in Sources */,
+				9EC0977C292BE96D0019B94F /* NavigationViewRoot.swift in Sources */,
+				9EC09765292BDDF00019B94F /* TabViewRoot.swift in Sources */,
+				9EC09780292BEF4B0019B94F /* ColorDetailView.swift in Sources */,
+				9EC09773292BDFD10019B94F /* HomeView.swift in Sources */,
+				9EC09771292BDE750019B94F /* MyProfileView.swift in Sources */,
+				9EC09763292BDDF00019B94F /* TabViewAppApp.swift in Sources */,
+				9EC09778292BE3A20019B94F /* NavigationSplitViewRoot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9EC09714292693890019B94F /* Debug */ = {
+		9EC0976B292BDDF20019B94F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		9EC09715292693890019B94F /* Release */ = {
+		9EC0976C292BDDF20019B94F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,14 +299,14 @@
 			};
 			name = Release;
 		};
-		9EC09717292693890019B94F /* Debug */ = {
+		9EC0976E292BDDF20019B94F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SystemPreferencesApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 2L24TQ8W95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.systempreferences.app.SystemPreferencesApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.tabbiew.app.TabViewApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,14 +328,14 @@
 			};
 			name = Debug;
 		};
-		9EC09718292693890019B94F /* Release */ = {
+		9EC0976F292BDDF20019B94F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SystemPreferencesApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 2L24TQ8W95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -337,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.systempreferences.app.SystemPreferencesApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.uni-sofia.fmi.tabbiew.app.TabViewApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,25 +360,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EC09703292693870019B94F /* Build configuration list for PBXProject "SystemPreferencesApp" */ = {
+		9EC0975A292BDDF00019B94F /* Build configuration list for PBXProject "TabViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EC09714292693890019B94F /* Debug */,
-				9EC09715292693890019B94F /* Release */,
+				9EC0976B292BDDF20019B94F /* Debug */,
+				9EC0976C292BDDF20019B94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EC09716292693890019B94F /* Build configuration list for PBXNativeTarget "SystemPreferencesApp" */ = {
+		9EC0976D292BDDF20019B94F /* Build configuration list for PBXNativeTarget "TabViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EC09717292693890019B94F /* Debug */,
-				9EC09718292693890019B94F /* Release */,
+				9EC0976E292BDDF20019B94F /* Debug */,
+				9EC0976F292BDDF20019B94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EC09700292693870019B94F /* Project object */;
+	rootObject = 9EC09757292BDDF00019B94F /* Project object */;
 }

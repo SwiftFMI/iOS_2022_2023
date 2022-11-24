@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  SystemPreferencesApp
+//  ReceivedView.swift
+//  TabViewApp
 //
-//  Created by Emil Atanasov on 11/17/22.
+//  Created by Emil Atanasov on 11/21/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct ReceivedView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -19,8 +19,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ReceivedView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ReceivedView()
     }
 }
