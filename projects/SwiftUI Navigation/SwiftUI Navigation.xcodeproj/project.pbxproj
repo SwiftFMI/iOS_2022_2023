@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E181B6E29380AFA00906248 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E181B6D29380AFA00906248 /* HomeView.swift */; };
+		9E181B7029380F2400906248 /* CarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E181B6F29380F2400906248 /* CarListView.swift */; };
+		9E181B72293811CA00906248 /* CarDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E181B71293811CA00906248 /* CarDetailsView.swift */; };
 		9E84F48A28F024A80082A1DC /* SwiftUI_NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F48928F024A80082A1DC /* SwiftUI_NavigationApp.swift */; };
 		9E84F48C28F024A80082A1DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F48B28F024A80082A1DC /* ContentView.swift */; };
 		9E84F48E28F024AA0082A1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F48D28F024AA0082A1DC /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E181B6D29380AFA00906248 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9E181B6F29380F2400906248 /* CarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListView.swift; sourceTree = "<group>"; };
+		9E181B71293811CA00906248 /* CarDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsView.swift; sourceTree = "<group>"; };
 		9E84F48628F024A80082A1DC /* SwiftUI Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E84F48928F024A80082A1DC /* SwiftUI_NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NavigationApp.swift; sourceTree = "<group>"; };
 		9E84F48B28F024A80082A1DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 				9E84F49728F024C80082A1DC /* DetailsView.swift */,
 				9E84F48D28F024AA0082A1DC /* Assets.xcassets */,
 				9E84F48F28F024AA0082A1DC /* Preview Content */,
+				9E181B6D29380AFA00906248 /* HomeView.swift */,
+				9E181B6F29380F2400906248 /* CarListView.swift */,
+				9E181B71293811CA00906248 /* CarDetailsView.swift */,
 			);
 			path = "SwiftUI Navigation";
 			sourceTree = "<group>";
@@ -141,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E84F48C28F024A80082A1DC /* ContentView.swift in Sources */,
+				9E181B7029380F2400906248 /* CarListView.swift in Sources */,
+				9E181B6E29380AFA00906248 /* HomeView.swift in Sources */,
 				9E84F48A28F024A80082A1DC /* SwiftUI_NavigationApp.swift in Sources */,
+				9E181B72293811CA00906248 /* CarDetailsView.swift in Sources */,
 				9E84F49828F024C80082A1DC /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

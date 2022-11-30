@@ -1,15 +1,15 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  SwiftUI Navigation
 //
-//  Created by Emil Atanasov on 10/07/22.
+//  Created by Emil Atanasov on 12/01/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Image(systemName: "globe")
                     .imageScale(.large)
@@ -23,14 +23,13 @@ struct ContentView: View {
 
             }
             .padding()
-            .navigationTitle("Main screen")
+            .navigationTitle("Home screen")
         }
-        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }

@@ -11,7 +11,12 @@ import SwiftUI
 struct SwiftUI_NavigationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if #available(iOS 16.0, *) {
+//                HomeView()
+                CarListView()
+            } else {
+                ContentView()
+            }
         }
     }
 }
