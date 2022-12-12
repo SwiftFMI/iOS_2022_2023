@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject var model = BooksModel.mock
     var body: some View {
         VStack {
             Image(systemName: "globe")

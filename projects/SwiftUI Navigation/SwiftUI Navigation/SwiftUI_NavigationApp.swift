@@ -13,7 +13,8 @@ struct SwiftUI_NavigationApp: App {
         WindowGroup {
             if #available(iOS 16.0, *) {
 //                HomeView()
-                CarListView()
+//                CarListView()
+                FetchDataView()
             } else {
                 ContentView()
             }

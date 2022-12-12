@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-/// Модел представяш книга
-struct Book {
+/// Модел представящ книга
+struct Book: Codable {
     var title: String
     var author: String
     var image: String
@@ -84,6 +84,15 @@ extension BooksModel {
                 The Design of Everyday Things is a powerful primer on how -- and why -- some products satisfy customers while others only frustrate them.
                 """, progress: 0, isOwned: false)
         ]
+        
+        let encoder = JSONEncoder()
+        if let data = try? encoder.encode(books) {
+            let str = String(data: data, encoding: .utf8)
+            print(str)
+        } else {
+            print("no data")
+        }
+        
         return BooksModel(books: books)
     }
 }

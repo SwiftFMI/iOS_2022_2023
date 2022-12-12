@@ -54,26 +54,26 @@
     1. MVVM, MVC
     1. Delegate и Observer - теория 
     1. Combine, Singleton
-1. [Data flow in SwiftUI](Lecture07.md)
+1. [Data flow in SwiftUI](Lecture06.md)
     1. @State,
     1. @StateObject,
     1. @EnvironmentObject
     1. @ObservableObject
     1. @ObservedObject
-1. [Navigation Controller](Lecture08.md)
+1. [Navigation Controller](Lecture07.md)
     1. Tabbar controller
     1. SplitView controller
     1. Scenes
     1. Navigation Between Screens (Navigation Link)
-1. [Animations](Lecture09.md)
+1. [Animations](Lecture08.md)
     1. TBD
     1. Canvas
-1. [Networking](Lecture10.md)
+1. [Networking](Lecture09.md)
     1. await async
     1. urlsession
     1. SwiftPackageManager + OpenSource (alamofire)
     1. Combine
-1. [Persistance](Lecture11.md)
+1. [Persistance](Lecture10.md)
     1. User Defaults
     1. Keychain, Files
     1. Firebase
