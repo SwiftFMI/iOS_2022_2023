@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2115B9294765E7002276B5 /* CombineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2115B8294765E7002276B5 /* CombineModel.swift */; };
+		9E2115BB29476F0B002276B5 /* ContentViewCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2115BA29476F0B002276B5 /* ContentViewCombine.swift */; };
 		9E81DC57293E56BC00C15DF8 /* HTTPDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81DC56293E56BC00C15DF8 /* HTTPDemoApp.swift */; };
 		9E81DC59293E56BC00C15DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81DC58293E56BC00C15DF8 /* ContentView.swift */; };
 		9E81DC5B293E56BE00C15DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E81DC5A293E56BE00C15DF8 /* Assets.xcassets */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2115B8294765E7002276B5 /* CombineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineModel.swift; sourceTree = "<group>"; };
+		9E2115BA29476F0B002276B5 /* ContentViewCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewCombine.swift; sourceTree = "<group>"; };
+		9E2115BC2947A2CE002276B5 /* HTTPDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HTTPDemo.entitlements; sourceTree = "<group>"; };
 		9E81DC53293E56BC00C15DF8 /* HTTPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E81DC56293E56BC00C15DF8 /* HTTPDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDemoApp.swift; sourceTree = "<group>"; };
 		9E81DC58293E56BC00C15DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,12 +62,15 @@
 		9E81DC55293E56BC00C15DF8 /* HTTPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E2115BC2947A2CE002276B5 /* HTTPDemo.entitlements */,
 				9E81DC64293E5FDE00C15DF8 /* Model.swift */,
 				9E81DC56293E56BC00C15DF8 /* HTTPDemoApp.swift */,
 				9E81DC58293E56BC00C15DF8 /* ContentView.swift */,
 				9E81DC66293E603D00C15DF8 /* BookDetailsView.swift */,
 				9E81DC5A293E56BE00C15DF8 /* Assets.xcassets */,
 				9E81DC5C293E56BE00C15DF8 /* Preview Content */,
+				9E2115B8294765E7002276B5 /* CombineModel.swift */,
+				9E2115BA29476F0B002276B5 /* ContentViewCombine.swift */,
 			);
 			path = HTTPDemo;
 			sourceTree = "<group>";
@@ -123,7 +131,7 @@
 			);
 			mainGroup = 9E81DC4A293E56BC00C15DF8;
 			packageReferences = (
-				9E81DC68293E665100C15DF8 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				9E81DC68293E665100C15DF8 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 9E81DC54293E56BC00C15DF8 /* Products */;
 			projectDirPath = "";
@@ -153,8 +161,10 @@
 			files = (
 				9E81DC67293E603D00C15DF8 /* BookDetailsView.swift in Sources */,
 				9E81DC65293E5FDE00C15DF8 /* Model.swift in Sources */,
+				9E2115BB29476F0B002276B5 /* ContentViewCombine.swift in Sources */,
 				9E81DC59293E56BC00C15DF8 /* ContentView.swift in Sources */,
 				9E81DC57293E56BC00C15DF8 /* HTTPDemoApp.swift in Sources */,
+				9E2115B9294765E7002276B5 /* CombineModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HTTPDemo/HTTPDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HTTPDemo/Preview Content\"";
@@ -309,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HTTPDemo/HTTPDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HTTPDemo/Preview Content\"";
@@ -357,7 +369,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9E81DC68293E665100C15DF8 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		9E81DC68293E665100C15DF8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -370,7 +382,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		9E81DC69293E665100C15DF8 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9E81DC68293E665100C15DF8 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 9E81DC68293E665100C15DF8 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

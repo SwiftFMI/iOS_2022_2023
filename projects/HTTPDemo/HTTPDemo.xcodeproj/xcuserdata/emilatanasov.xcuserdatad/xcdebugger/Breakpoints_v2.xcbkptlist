@@ -3,4 +3,86 @@
    uuid = "4E0B592B-61A3-41F9-B903-822214CC8BA4"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3E38931-40BB-45FA-B3FD-C96F3BC6F607"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HTTPDemo/CombineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "saveToUserDefaults(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "016086A3-C3F8-4B1D-B1A6-EFF9918FDD1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HTTPDemo/CombineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "loadFromFile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "016086A3-C3F8-4B1D-B1A6-EFF9918FDD1F - 749a1857b9caabca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HTTPDemo.NetworkModel.loadFromFile() -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "HTTPDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilatanasov/Documents/Projects/iOS/iOS_2022_2023/projects/HTTPDemo/HTTPDemo/CombineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1893">
+               </Location>
+               <Location
+                  uuid = "016086A3-C3F8-4B1D-B1A6-EFF9918FDD1F - 749a1857b9caabca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HTTPDemo.NetworkModel.loadFromFile() -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "HTTPDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilatanasov/Documents/Projects/iOS/iOS_2022_2023/projects/HTTPDemo/HTTPDemo/CombineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "2093">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64ACBA3C-4650-4510-8028-AE9FB7496A5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HTTPDemo/CombineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "loadDataFromKeychain()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

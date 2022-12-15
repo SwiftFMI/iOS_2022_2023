@@ -11,7 +11,8 @@ import SwiftUI
 struct HTTPDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(hasError: false)
+//            ContentView(hasError: false)
+            ContentViewCombine()
         }
     }
 }
