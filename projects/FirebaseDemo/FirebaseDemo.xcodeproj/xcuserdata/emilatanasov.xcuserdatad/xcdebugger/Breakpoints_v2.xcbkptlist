@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BBA32623-BBB4-47D3-B363-6293BB877FB8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C764A0FB-1BF4-4350-A2B4-52D39F39F5CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseDemo/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "readDataFromDB()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C764A0FB-1BF4-4350-A2B4-52D39F39F5CC - c8babc46d9c75e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.FIRDataSnapshot&gt;) -&gt; () in FirebaseDemo.ContentView.readDataFromDB() -&gt; ()"
+                  moduleName = "FirebaseDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilatanasov/Documents/Projects/iOS/iOS_2022_2023/projects/FirebaseDemo/FirebaseDemo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  uuid = "C764A0FB-1BF4-4350-A2B4-52D39F39F5CC - c8babc46d9c75e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.FIRDataSnapshot&gt;) -&gt; () in FirebaseDemo.ContentView.readDataFromDB() -&gt; ()"
+                  moduleName = "FirebaseDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilatanasov/Documents/Projects/iOS/iOS_2022_2023/projects/FirebaseDemo/FirebaseDemo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "467">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4A3512E-6A29-460C-8452-6B4DFF7B2B65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseDemo/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "readDataFromDB()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4A3512E-6A29-460C-8452-6B4DFF7B2B65 - cf41fc703401052f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.FIRDataSnapshot) -&gt; () in FirebaseDemo.ContentView.readDataFromDB() -&gt; ()"
+                  moduleName = "FirebaseDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilatanasov/Documents/Projects/iOS/iOS_2022_2023/projects/FirebaseDemo/FirebaseDemo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  uuid = "D4A3512E-6A29-460C-8452-6B4DFF7B2B65 - cf41fc703401052f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.FIRDataSnapshot) -&gt; () in FirebaseDemo.ContentView.readDataFromDB() -&gt; ()"
+                  moduleName = "FirebaseDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilatanasov/Documents/Projects/iOS/iOS_2022_2023/projects/FirebaseDemo/FirebaseDemo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "451">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
