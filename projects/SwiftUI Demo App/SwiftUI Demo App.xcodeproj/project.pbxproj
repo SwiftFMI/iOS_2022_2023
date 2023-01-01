@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0698F889296238C20057865D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0698F888296238C20057865D /* Model.swift */; };
+		0698F88A296239C20057865D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F4BF28F4851C0082A1DC /* CardView.swift */; };
 		9E84F47028EF318B0082A1DC /* SwiftUI_Demo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F46F28EF318B0082A1DC /* SwiftUI_Demo_AppApp.swift */; };
 		9E84F47228EF318B0082A1DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84F47128EF318B0082A1DC /* ContentView.swift */; };
 		9E84F47428EF318C0082A1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E84F47328EF318C0082A1DC /* Assets.xcassets */; };
@@ -40,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0698F888296238C20057865D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		9E84F46C28EF318B0082A1DC /* SwiftUI Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E84F46F28EF318B0082A1DC /* SwiftUI_Demo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Demo_AppApp.swift; sourceTree = "<group>"; };
 		9E84F47128EF318B0082A1DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 				9E84F4BF28F4851C0082A1DC /* CardView.swift */,
 				9E84F47328EF318C0082A1DC /* Assets.xcassets */,
 				9E84F47528EF318C0082A1DC /* Preview Content */,
+				0698F888296238C20057865D /* Model.swift */,
 			);
 			path = "SwiftUI Demo App";
 			sourceTree = "<group>";
@@ -262,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0698F889296238C20057865D /* Model.swift in Sources */,
 				9E84F47228EF318B0082A1DC /* ContentView.swift in Sources */,
+				0698F88A296239C20057865D /* CardView.swift in Sources */,
 				9E84F47028EF318B0082A1DC /* SwiftUI_Demo_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
