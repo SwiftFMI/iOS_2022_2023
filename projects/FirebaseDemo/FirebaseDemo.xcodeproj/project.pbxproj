@@ -11,7 +11,6 @@
 		9EECABEC294B85600025CDF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EECABEB294B85600025CDF5 /* ContentView.swift */; };
 		9EECABEE294B85630025CDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EECABED294B85630025CDF5 /* Assets.xcassets */; };
 		9EECABF1294B85630025CDF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EECABF0294B85630025CDF5 /* Preview Assets.xcassets */; };
-		9EECABF8294B88F10025CDF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EECABF7294B88F10025CDF5 /* GoogleService-Info.plist */; };
 		9EECABFB294B8A420025CDF5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9EECABFA294B8A420025CDF5 /* FirebaseAuth */; };
 		9EECABFD294B8A420025CDF5 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 9EECABFC294B8A420025CDF5 /* FirebaseAuthCombine-Community */; };
 		9EECABFF294B8A420025CDF5 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9EECABFE294B8A420025CDF5 /* FirebaseCrashlytics */; };
@@ -20,6 +19,7 @@
 		9EECAC05294B8A420025CDF5 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9EECAC04294B8A420025CDF5 /* FirebaseMessaging */; };
 		9EECAC07294B8A420025CDF5 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 9EECAC06294B8A420025CDF5 /* FirebaseRemoteConfig */; };
 		9EECAC09294B8A420025CDF5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9EECAC08294B8A420025CDF5 /* FirebaseStorage */; };
+		9EECAC0B2950CEDE0025CDF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EECAC0A2950CEDE0025CDF5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		9EECABEB294B85600025CDF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9EECABED294B85630025CDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EECABF0294B85630025CDF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9EECABF7294B88F10025CDF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EECAC0A2950CEDE0025CDF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 		9EECABE8294B85600025CDF5 /* FirebaseDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9EECABF7294B88F10025CDF5 /* GoogleService-Info.plist */,
+				9EECAC0A2950CEDE0025CDF5 /* GoogleService-Info.plist */,
 				9EECABE9294B85600025CDF5 /* FirebaseDemoApp.swift */,
 				9EECABEB294B85600025CDF5 /* ContentView.swift */,
 				9EECABED294B85630025CDF5 /* Assets.xcassets */,
@@ -159,7 +159,7 @@
 			files = (
 				9EECABF1294B85630025CDF5 /* Preview Assets.xcassets in Resources */,
 				9EECABEE294B85630025CDF5 /* Assets.xcassets in Resources */,
-				9EECABF8294B88F10025CDF5 /* GoogleService-Info.plist in Resources */,
+				9EECAC0B2950CEDE0025CDF5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

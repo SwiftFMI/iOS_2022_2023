@@ -8,14 +8,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C764A0FB-1BF4-4350-A2B4-52D39F39F5CC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirebaseDemo/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "readDataFromDB()"
             landmarkType = "7">
             <Locations>
@@ -62,8 +62,8 @@
             filePath = "FirebaseDemo/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "readDataFromDB()"
             landmarkType = "7">
             <Locations>

@@ -8,6 +8,8 @@
 import SwiftUI
 import FirebaseAuth
 import FirebaseDatabase
+import FirebaseFirestore
+import FirebaseStorage
 
 struct ContentView: View {
     let email = "test@my.company.com"
@@ -41,9 +43,85 @@ struct ContentView: View {
             } label: {
                 Text("Read Data")
             }
+            
+            Button {
+                readDataFromFirestore()
+            } label: {
+                Text("Read Firestore")
+            }
+            
+            Button {
+                uploadFile()
+            } label: {
+                Text("Upload")
+            }
 
         }
         .padding()
+    }
+    
+    func uploadFile() {
+        let storage = Storage.storage()
+        let storageRef = storage.reference()
+
+        // Data in memory
+        guard let data = "Hello world".data(using: .utf8) else {
+            return
+        }
+        let userId = "my-user-id"
+        // Create a reference to the file you want to upload
+        let riversRef = storageRef.child("demo/\(userId)/file.txt")
+
+        let uploadTask = riversRef.putData(data, metadata: nil) { (metadata, error) in
+          guard let metadata = metadata else {
+            // Uh-oh, an error occurred!
+            return
+          }
+          // Metadata contains file metadata such as size, content-type.
+          let size = metadata.size
+            print("Size: \(size)")
+          // You can also access to download URL after upload.
+          riversRef.downloadURL { (url, error) in
+            guard let downloadURL = url else {
+              // Uh-oh, an error occurred!
+              return
+            }
+              print("Download url: \(downloadURL)")
+          }
+        }
+        
+    }
+    
+    func readDataFromFirestore() {
+        let db = Firestore.firestore()
+        
+        let ref = db.collection("game_server")
+        // read items
+        ref.getDocuments() { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+            } else {
+                for document in querySnapshot!.documents {
+                    print("\(document.documentID) => \(document.data())")
+                }
+            }
+        }
+        // add items
+//        let doc = ref.addDocument(data: [
+//            "room": [ "10": [
+//                "players": [ "player_001", "player_002"
+//                ]],
+//                      "1": [
+//                        "players": [ "player_011", "player_012"
+//                        ]]
+//            ]
+//        ]) { err in
+//            if let err = err {
+//                print("Error adding document: \(err)")
+//            } else {
+//                print("Document added.")
+//            }
+//        }
     }
     
     func readDataFromDB() {
@@ -64,6 +142,12 @@ struct ContentView: View {
         ref.child("chats/room/\(roomId)").observe(.childChanged, with: { snapshot in
             if let messages = snapshot.value as? String {
                 print("Messages: \(messages)")
+            }
+          })
+        
+        ref.child("chats/room/\(roomId)").observe(.childAdded, with: { snapshot in
+            if let messages = snapshot.value as? String {
+                print("Child: \(messages)")
             }
           })
     }
