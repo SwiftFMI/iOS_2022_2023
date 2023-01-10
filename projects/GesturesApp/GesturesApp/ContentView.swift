@@ -57,14 +57,14 @@ struct ContentView: View {
                                 .gesture(
                                     DragGesture()
                                         .onChanged { gesture in
-                                            dragOffset = gesture.translation
-//                                            dragOffset = CGSize(width: gesture.translation.width + self.accumulated.width, height: gesture.translation.height + self.accumulated.height)
+//                                            dragOffset = gesture.translation
+                                            dragOffset = CGSize(width: gesture.translation.width + self.accumulated.width, height: gesture.translation.height + self.accumulated.height)
                                         }
                                         .onEnded { gesture in
                                             withAnimation(.spring()) {
-                                                dragOffset = .zero
-//                                                dragOffset = CGSize(width: gesture.translation.width + self.accumulated.width, height: gesture.translation.height + self.accumulated.height)
-//                                                                self.accumulated = dragOffset
+//                                                dragOffset = .zero
+                                                dragOffset = CGSize(width: gesture.translation.width + self.accumulated.width, height: gesture.translation.height + self.accumulated.height)
+                                                                self.accumulated = dragOffset
                                             }
                                         }
                                 )

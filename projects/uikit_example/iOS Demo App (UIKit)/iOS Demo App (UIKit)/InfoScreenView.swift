@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct InfoScreenView: View {
+    @State var title = "Hello SwiftUI!"
+    @EnvironmentObject var model: Model
+    
     var body: some View {
-        Text("Some SwiftUI goes here")
+        VStack {
+            Text(title)
+            Text("Counter is \(model.counter)")
+            Button("Update") {
+                title = "State works fine!"
+            }
+            Button("Increase") {
+                model.increase(value: 1)
+            }
+        }
     }
 }
 
